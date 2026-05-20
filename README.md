@@ -1,4 +1,4 @@
-# Health Tracker Web Application 🏃‍♂️💧
+# Health Tracker Web Application 
 
 A modern, responsive, full-stack **Health Tracker Web Application** designed for university students to log and audit core daily wellness metrics:
 - **Calories** (kcal)
