@@ -8,17 +8,17 @@ A modern, responsive, full-stack **Health Tracker Web Application** designed for
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+##  Tech Stack & Architecture
 
 - **Frontend**: React.js, Tailwind CSS (v4), React Router DOM, Recharts (Area, Line, and Bar charts), Axios Client, Lucide Webicons.
 - **Backend**: Node.js + Express.js API, JWT Authentication, Bcrypt Password Hashing, Mongoose adapter.
 - **Database**: MongoDB Atlas support with a dynamic **Local File Database Fallback (local-db.json)**. 
 
-> 🔌 **Dynamic Database Layer**: If no `MONGODB_URI` environment variable is defined, the backend automatically provisions a secure, disk-backed JSON database file (`local-db.json`) inside the sandbox. This allows the application to work out-of-the-box immediately in any environment, while remaining fully compatible with live MongoDB Atlas grids upon supplying credentials!
+>  **Dynamic Database Layer**: If no `MONGODB_URI` environment variable is defined, the backend automatically provisions a secure, disk-backed JSON database file (`local-db.json`) inside the sandbox. This allows the application to work out-of-the-box immediately in any environment, while remaining fully compatible with live MongoDB Atlas grids upon supplying credentials!
 
 ---
 
-## 📂 Project Directory Layout
+##  Project Directory Layout
 
 ```text
 ├── server.ts               # Full-Stack entry point (Express Server + Vite Middleware)
@@ -51,7 +51,7 @@ A modern, responsive, full-stack **Health Tracker Web Application** designed for
 
 ---
 
-## 🚀 Local Quickstart Guide
+##  Local Quickstart Guide
 
 ### 1. Prerequisites
 Ensure you have **Node.js** (v18+) and **npm** installed on your workstation.
@@ -72,7 +72,7 @@ Open your browser and navigate to [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 🌩️ Deployment Guides
+##  Deployment Guides
 
 ### 1. Frontend to Vercel
 To deploy the React web application on **Vercel** as a static site:
